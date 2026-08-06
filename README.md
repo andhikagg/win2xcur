@@ -12,6 +12,10 @@ A command-line tool suite to convert cursor themes between Windows (`.cur`, `.an
 - **`x2wincurtheme`** — Converts a directory of Xcursors into a Windows theme, while generating a complementary `install.inf` (and `uninstall.inf` for removal).
 - **`inspectcur`** — A debugging tool that loads arbitrary Windows or X11 cursors and shows the animation settings, image sizes, and hotspots.
 
+## Cursor Mapping Reference
+
+The mapping between Windows cursor names and Linux/X11 cursor names used by the theme tools lives in `src/lib/theme.js`. For cross-reference, see the [cursor_map.json from keiaa-75/cc.py](https://github.com/keiaa-75/cc.py/blob/main/cursor_map.json).
+
 ## Installation and Usage
 
 There are four ways to use these tools, separated by user type.
