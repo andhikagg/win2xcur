@@ -1,0 +1,40 @@
+{
+  "name": "win2xcur",
+  "version": "1.0.0",
+  "description": "`win2xcur` is a tool that converts cursors from Windows format (`*.cur`, `*.ani`) to Xcursor format. This allows Windows cursor themes to be used on Linux, for example.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test",
+    "win2xcur": "node ./src/cli/win2xcur.js",
+    "win2xcurtheme": "node ./src/cli/win2xcurtheme.js",
+    "x2wincur": "node ./src/cli/x2wincur.js",
+    "x2wincurtheme": "node ./src/cli/x2wincurtheme.js",
+    "inspectcur": "node ./src/cli/inspectcur.js",
+    "start": "node ./src/cli/start.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andhikagg/win2xcur.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andhikagg/win2xcur/issues"
+  },
+  "homepage": "https://github.com/andhikagg/win2xcur#readme",
+  "dependencies": {
+    "commander": "^15.0.0",
+    "ini": "^7.0.0",
+    "inquirer": "^14.0.2",
+    "sharp": "^0.34.5"
+  },
+  "type": "module",
+  "bin": {
+    "win2xcur": "./src/cli/win2xcur.js",
+    "win2xcurtheme": "./src/cli/win2xcurtheme.js",
+    "x2wincur": "./src/cli/x2wincur.js",
+    "x2wincurtheme": "./src/cli/x2wincurtheme.js",
+    "inspectcur": "./src/cli/inspectcur.js"
+  }
+}
