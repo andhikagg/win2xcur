@@ -105,21 +105,6 @@ x2wincur -i linux_cursor -o ./output
 ```
 
 ### 4. Inspect Cursor Metadata
-View frames, animation delays, dimensions, and hotsuser
-```
-
-### 3. Convert Single File
-Translate individual cursor files.
-
-```bash
-# Windows to Linux
-win2xcur -i cursor.cur -o ./output
-
-# Linux to Windows
-x2wincur -i linux_cursor -o ./output
-```
-
-### 4. Inspect Cursor Metadata
 View frames, animation delays, dimensions, and hotspot coordinates.
 ```bash
 inspectcur -i cursor.ani
